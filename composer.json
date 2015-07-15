@@ -1,5 +1,5 @@
 {
-	"name": "ckeditor/ckeditor",
+	"name": "unisharp/laravel-ckeditor",
 	"description": "JavaScript WYSIWYG web text editor.",
 	"type": "library",
 	"keywords": [ "ckeditor", "fckeditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript" ],
@@ -16,5 +16,14 @@
 		"forum": "http://ckeditor.com/forums",
 		"wiki": "http://docs.ckeditor.com",
 		"source": "http://github.com/ckeditor/ckeditor-dev"
-	}
+	},
+	"autoload": {
+		"psr-4": {
+			"Unisharp\\Ckeditor\\": "./"
+		}
+	},
+	"require": {
+		"illuminate/support": "~5.0.17|5.1.*"
+	},
+	"minimum-stability": "dev"
 }
