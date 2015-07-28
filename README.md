@@ -1,4 +1,4 @@
-CKEditor 4 Unisharp Package
+CKEditor Package
 =====================
 
 ## Installation
