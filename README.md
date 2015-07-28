@@ -7,7 +7,8 @@ CKEditor 4 Unisharp Package
 
 in `composer.json` file
 
-```"require": {
+```json
+    "require": {
         "unisharp/laravel-ckeditor": "dev-master"
     },
     "repositories": [
@@ -22,7 +23,8 @@ in `composer.json` file
 
 Default way (initiate by name or id) :
 
-```<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+```javascript
+    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
     <script>
         CKEDITOR.replace( 'article-ckeditor' );
     </script>
@@ -30,7 +32,8 @@ Default way (initiate by name or id) :
 
 Or if you want to initiate by jQuery selector :
 
-```<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+```javascript
+    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
     <script src="/vendor/unisharp/laravel-ckeditor/adapters/jquery.js"></script>
     <script>
         $('textarea').ckeditor();
