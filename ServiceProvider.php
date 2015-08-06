@@ -18,7 +18,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
                 __DIR__ . '/skins' => public_path('vendor/unisharp/laravel-ckeditor/skins'),
                 __DIR__ . '/plugins' => public_path('vendor/unisharp/laravel-ckeditor/plugins'),
             ],
-            'public'
+            'ckeditor'
         ); 
     }
 
