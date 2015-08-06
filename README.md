@@ -5,7 +5,7 @@ CKEditor Package
 ### Set up package
 
 ```
-composer require unisharp/laravel-ckeditor
+composer require unisharp/laravel-ckeditor dev-master
 php artisan vendor:publish --tag=ckeditor
 ```
 
