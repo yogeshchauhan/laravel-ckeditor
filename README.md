@@ -2,17 +2,14 @@ CKEditor Package
 =====================
 
 ## Installation
-
 ### Set up package
-
-in `composer.json` file
 
 ```
 composer require unisharp/laravel-ckeditor
 php artisan vendor:publish --tag=ckeditor
 ```
 
-### Usage
+## Usage
 
 Default way (initiate by name or id) :
 
@@ -30,5 +27,6 @@ Or if you want to initiate by jQuery selector :
     <script src="/vendor/unisharp/laravel-ckeditor/adapters/jquery.js"></script>
     <script>
         $('textarea').ckeditor();
+        // $('.textarea').ckeditor(); // if class is prefered.
     </script>
 ```
