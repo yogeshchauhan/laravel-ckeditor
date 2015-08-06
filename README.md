@@ -7,19 +7,12 @@ CKEditor Package
 
 in `composer.json` file
 
-```json
-    "require": {
-        "unisharp/laravel-ckeditor": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/UniSharp/laravel-ckeditor.git"
-        }
-    ],
+```
+composer require unisharp/laravel-ckeditor
+php artisan vendor:publish --tag=ckeditor
 ```
 
-### View initiation
+### Usage
 
 Default way (initiate by name or id) :
 
