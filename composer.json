@@ -13,7 +13,7 @@
 		{
 			"name":  "UniSharp Ltd. (Composer Package Maintainer)",
 			"homepage": "http://www.unisharp.com"
-		},
+		}
 	],
 	"support": {
 		"issues": "http://dev.ckeditor.com",
