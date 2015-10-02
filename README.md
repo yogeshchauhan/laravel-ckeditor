@@ -9,6 +9,13 @@ composer require unisharp/laravel-ckeditor dev-master
 php artisan vendor:publish --tag=ckeditor
 ```
 
+### Add ServiceProvider
+
+Edit config/app.php, add the following file to `Application Service Providers` section.
+```
+Unisharp\Ckeditor\ServiceProvider::class,
+```
+
 ## Usage
 
 Default way (initiate by name or id) :
