@@ -37,3 +37,7 @@ Or if you want to initiate by jQuery selector :
         // $('.textarea').ckeditor(); // if class is prefered.
     </script>
 ```
+
+## File Uplader Integration
+
+ Instead of using KCFinder, we recommend [laravel-filemanager](https://github.com/UniSharp/laravel-filemanager) for the file uploader integration for better laravel user access control and specific per user folders.
