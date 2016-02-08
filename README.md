@@ -6,7 +6,6 @@ CKEditor Package
 
 ```
 composer require unisharp/laravel-ckeditor
-php artisan vendor:publish --tag=ckeditor
 ```
 
 ### Add ServiceProvider
@@ -15,7 +14,10 @@ Edit config/app.php, add the following file to `Application Service Providers` s
 ```
 Unisharp\Ckeditor\ServiceProvider::class,
 ```
-
+And publish the resources
+```
+php artisan vendor:publish --tag=ckeditor
+```
 ## Usage
 
 Default way (initiate by name or id) :
