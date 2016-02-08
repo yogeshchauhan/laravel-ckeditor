@@ -14,7 +14,7 @@ Edit config/app.php, add the following file to `Application Service Providers` s
 ```
 Unisharp\Ckeditor\ServiceProvider::class,
 ```
-And publish the resources
+### Publish the resources
 ```
 php artisan vendor:publish --tag=ckeditor
 ```
