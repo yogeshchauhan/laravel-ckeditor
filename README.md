@@ -1,6 +1,8 @@
 CKEditor Package
 =====================
 
+p.s. Instead of using this package, I recommand just follow (the official CKEditor installation instructions with package managers)[http://docs.ckeditor.com/#!/guide/dev_package_managers].
+
 ## Installation
 ### Set up package
 
