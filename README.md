@@ -1,7 +1,7 @@
 CKEditor Package
 =====================
 
-p.s. Instead of using this package, I recommend just follow [the official CKEditor installation instructions with package managers](http://docs.ckeditor.com/#!/guide/dev_package_managers)
+p.s. CKEDITOR has its official composer package [since 2014](https://ckeditor.com/blog/CKEditor-Supports-Bower-and-Composer/). Instead of using this package, I recommend just follow [the official CKEditor installation instructions with package managers](https://docs.ckeditor.com/ckeditor4/latest/guide/dev_package_managers.html#composer)
 
 ## Installation
 ### Set up package
